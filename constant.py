@@ -11,3 +11,6 @@ TAX_RATE = 0.35
 # 소득과 소득세율이 변경되었다면 상수의 정의만 변경
 tax = INCOME * TAX_RATE
 net_income = INCOME - tax
+
+print(tax)
+print(net_income)
