@@ -13,3 +13,10 @@ print(type('blue'))  # str
 print(type(3.14))  # float
 print(type(2 < 3))  # bool
 print(type((2, 3, 4)))  # tuple
+
+# 정수형(1)
+# 정수형이란?
+# 1, -23, 0 등
+x = 100 ** 30
+print(x)
+print(type(x))
