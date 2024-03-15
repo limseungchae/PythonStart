@@ -8,11 +8,11 @@ STRING = "hello"
 print("정수",INTEGER, "실수",FLOAT, "문자열",STRING)
 
 # 자료형을 알려면?
-print(type(1234))  # int
-print(type('blue'))  # str
-print(type(3.14))  # float
-print(type(2 < 3))  # bool
-print(type((2, 3, 4)))  # tuple
+print(type(1234))  # <class 'int'>
+print(type('blue'))  # <class 'str'>
+print(type(3.14))  # <class 'float'>
+print(type(2 < 3))  # <class 'bool'>
+print(type((2, 3, 4)))  # <class 'tuple'>
 
 # 정수형(1)
 # 정수형이란?
@@ -20,3 +20,11 @@ print(type((2, 3, 4)))  # tuple
 x = 100 ** 30
 print(x)
 print(type(x))
+
+# 정수형(2)
+# 다양한 진법 가능
+a = 0xFF    # 16진수
+b = 0o77    # 8진수
+c = 0b1111  # 2진수
+print(a,b,c) # 모든변수를 10진수로 출력한다.
+# 255 63 15
