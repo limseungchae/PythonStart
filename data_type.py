@@ -106,3 +106,17 @@ s = "Python"
 print(s[0])  # 'p' # 첫 번째 문자
 print(s[1])  # 'y' # 두 번째 문자
 print(s[-1])  # 'n' # 마지막 문자
+
+# 문자열 안에 변수 출력
+# f-문자열(f-string)
+# 문자열 안에 출력하고 싶은 변수를 중괄호로 감싸서 넣는 방법
+price = 10000
+print(f"상품의 가격은 {price}원 입니다.")
+
+product = "coffee"
+count = 3
+price = 10000
+print(f"상품{product} {count}개의 가격은 {count*price}원입니다.")
+
+pi = 3.141592
+print(f"원주률={pi:2f}") # 소수점 두번째 자리까지 출력
