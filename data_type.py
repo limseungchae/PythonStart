@@ -120,3 +120,14 @@ print(f"상품{product} {count}개의 가격은 {count*price}원입니다.")
 
 pi = 3.141592
 print(f"원주률={pi:2f}") # 소수점 두번째 자리까지 출력
+
+# input() 함수
+name = input("이름을 입력하시오: ")
+print(name, "씨, 안녕하세요?")
+
+# 정수로 전환 계산
+s = input("첫번째 정수를 입력하시오")
+d = input("두번째 정수를 입력하시오")
+
+print("두 합은?",int(s) + int(d))
+
