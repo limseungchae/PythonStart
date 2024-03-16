@@ -53,3 +53,20 @@ print(message)  # 문자열 안에 따옴표를 넣을때는 다른형태의 따
 
 greeting = '''지난한해 저에게 보여주신 보살핌과 사랑에 깊음 감사를 드립니다. 새해에도 하시고자 하는일 모두 성취하시기를 바랍니다.'''
 print(greeting) # 여러 줄로 된 문자열은 '''...'''을 사용
+
+# 문자열 <-> 수치값
+# str()
+# 수치값을 문자열로 바꿈
+price_str = str(123)
+height_str = str(3.14)
+
+# int()
+# 문자열을 정수로 변경
+price_int = int("123")
+
+# float()
+# 문자열을 실수로 변경
+height_float = float("3.14")
+
+print(price_str, height_str)
+print(price_int, height_float)
