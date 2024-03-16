@@ -79,3 +79,22 @@ print(line)
 message = "Congratulations! "
 print(message*3)
 # Congratulations! Congratulations! Congratulations!
+
+# 문자열 메소드
+# len()
+# 문자열의 길이를 계산
+message = "Merry CHristmas!"
+print(len(message)) # 16
+
+# upper()와 lower()
+# 문자열을 대문자나 소문자로 변경
+message_upper = message.upper()
+message_lower = message.lower()
+print(message_upper)  # "MERRY CHRISTMAS!"
+print(message_lower)  # "merry christmas!"
+
+# fiond()
+# 문자열에서 어떤 단어를 찾음
+# 위치는 0부터 시작하는 인덱스로 반환
+message_find = message.find("CH")
+print(message_find) # 6
