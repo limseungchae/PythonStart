@@ -98,3 +98,11 @@ print(message_lower)  # "merry christmas!"
 # 위치는 0부터 시작하는 인덱스로 반환
 message_find = message.find("CH")
 print(message_find) # 6
+
+# 문자열 안의 문자에 접근하기
+# 문자열
+# 여러 개의 문자로 이루어짐
+s = "Python"
+print(s[0])  # 'p' # 첫 번째 문자
+print(s[1])  # 'y' # 두 번째 문자
+print(s[-1])  # 'n' # 마지막 문자
