@@ -40,3 +40,16 @@ a = 3.14
 b = 7.12
 print(a+b, a-b, a*b, a/b)
 
+# 문자열
+# 문자들의 시퀀스 - 문자가 순서대로 나오는것
+greeting = "Merry Christmas!"
+print(greeting) # 출력 시에는 항상 작은 따옴표 이용
+
+greeting = 'Happy New Year!'
+print(greeting)
+
+message = "철수가 '안녕'이라고 말했습니다."
+print(message)  # 문자열 안에 따옴표를 넣을때는 다른형태의 따옴표를 사용
+
+greeting = '''지난한해 저에게 보여주신 보살핌과 사랑에 깊음 감사를 드립니다. 새해에도 하시고자 하는일 모두 성취하시기를 바랍니다.'''
+print(greeting) # 여러 줄로 된 문자열은 '''...'''을 사용
