@@ -70,3 +70,12 @@ height_float = float("3.14")
 
 print(price_str, height_str)
 print(price_int, height_float)
+
+# 문자열의 반복
+# * 연산자 사용
+line = "=" * 50
+print(line)
+# ==================================================
+message = "Congratulations! "
+print(message*3)
+# Congratulations! Congratulations! Congratulations!
