@@ -63,3 +63,13 @@ if expensive:               # 관계 수식 대신에 부울 변수가 들어가
 else:
     shipping_cost = 3000
 print("배송비는", shipping_cost, "원 입니다.")  # 배송비 출력
+
+# 문자열
+s1 = "Audrey Hepbyrn"
+s2 = "Audrey Hepbyrn"
+print(s1 == s2) # True
+
+# 아스키코드 알파벳 순
+s1 = "Audrey Hepbyrn"
+s2 = "Grace Kelly"
+print(s1 < s2) # True
