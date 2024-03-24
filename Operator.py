@@ -129,3 +129,11 @@ print("문열림 상태=",((status & 0b00000100)!=0)) # True
 x = 1.723456
 print(round(x))  # 2
 print(round(x,2))  # 1.72
+
+# 성적 처리 프로그램
+score1 = int(input("국어 성적:"))
+score2 = int(input("수학 성적:"))
+score3 = int(input("영어 성적:"))
+
+avg = (score1 + score2 + score3) / 3.0
+print(f"\n평균성적은{avg:.02f}점 입니다.")
