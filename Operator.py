@@ -45,3 +45,7 @@ total_sales += cola_count * 3000
 total_sales += krice_count * 3500
 
 print(f"\n오늘 총 매충은 {total_sales}원입니다.")
+
+# 관계 연산자
+# 두개의 피연산자를 비교하는데 사용
+# "변수 x가 변수 y보다 큰지"를 결정 (==, !=, >, <, >=, <=)
