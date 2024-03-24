@@ -49,3 +49,17 @@ print(f"\n오늘 총 매충은 {total_sales}원입니다.")
 # 관계 연산자
 # 두개의 피연산자를 비교하는데 사용
 # "변수 x가 변수 y보다 큰지"를 결정 (==, !=, >, <, >=, <=)
+
+# 부울 변수
+radius = 100
+flag = (radius > 32)
+print(flag) # True
+
+# 20000원 이상이면 배송비 0 원 이하면 3000원
+price = float(input("상품의 가격을 입력하세요: "))  # 가격을 입력받음
+expensive = price > 20000   # expensive가 부울 변수이다.
+if expensive:               # 관계 수식 대신에 부울 변수가 들어가도 된다.
+    shipping_cost = 0
+else:
+    shipping_cost = 3000
+print("배송비는", shipping_cost, "원 입니다.")  # 배송비 출력
