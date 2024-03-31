@@ -23,4 +23,20 @@ if price > 20000 and card == "python":
 else:
     print("조건에 해당되지 않습니다.")
 print("-------------------------------------")
+# 조건 연산자
+numbers = [-10, 5, 8, 3, 12, 6]
 
+# 절대값 계산 : 음수이면 반대로 변환한 값
+abs_numbers = [abs(num) for num in numbers]
+
+# 최대값 계산
+max_value = max(numbers)
+
+# 최소값 계산
+min_value = min(numbers)
+
+print("원본 숫자:", numbers)
+print("절대값:", abs_numbers)
+print("최대값:", max_value)
+print("최소값:", min_value)
+print("-------------------------------------")
