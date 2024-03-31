@@ -39,4 +39,11 @@ print("원본 숫자:", numbers)
 print("절대값:", abs_numbers)
 print("최대값:", max_value)
 print("최소값:", min_value)
+
+# 조건 연산자2
+x = int(input("첫 번째 수 ="))
+y = int(input("두 번째 수 ="))
+max_value = (x if x > y else y)
+min_value = (y if x > y else x)
+print("큰 수=",max_value, "작은 수=", min_value)
 print("-------------------------------------")
