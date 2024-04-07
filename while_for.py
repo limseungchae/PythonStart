@@ -194,6 +194,7 @@ for co in coffee:
 # 줄바꿈을 하지 않고 스페이스만 출력한다.
 for i in range(1,11):
     # if i%3 == 0:
-    if i%2 == 0:
+    # if i%2 == 0:
+    if i%2 != 0:
         continue
         print(i,end="")
