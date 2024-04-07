@@ -188,3 +188,11 @@ cake = ["CheeseCake","StrawberryCake", "ChocolateCake"]
 for co in coffee:
     for ca in cake:
         print(co + "" + ca)
+
+# 3의 배수이면
+# 다음 반복을 시작한다.
+# 줄바꿈을 하지 않고 스페이스만 출력한다.
+for i in range(1,11):
+    if i%3 == 0:
+        continue
+        print(i,end="")
