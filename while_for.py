@@ -77,4 +77,5 @@ n = 10
 for i in range(n,0,-1) :
     # sum = sum + i
     sum += i
+    print(f"{i},{sum}")
 print("합=",sum)
