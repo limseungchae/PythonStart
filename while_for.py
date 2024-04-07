@@ -169,3 +169,14 @@ for i in range(5):
 #       break   # 반복을 중단한다.
 #   if 조건:
 #       continue # 다음 반복을 시작한다.
+
+# 신호등 예제
+# 신호등 색상을 입력하시오 red
+# 신호등 색상을 입력하시오 yellow
+# 신호등 색상을 입력하시오 green
+# 전진!!
+while True:
+    light = input("신호등 색상을 입력하시오")
+    if light == "green":
+                break
+print("전진!!")
