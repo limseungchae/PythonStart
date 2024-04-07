@@ -83,3 +83,12 @@ print("합=",sum)
 # 구구단 계산
 for i in range(1,10) :
     print("9 *",i,"=", 9*i)
+
+# 사용자로 부터 숫자를 받아서 팩토리얼 계산
+# 예를 들어, 5 팩토리얼은 다음과 같이 계산됩니다:
+# 5! = 5 × 4 × 3 × 2 × 1 = 120
+n = int(input("정수를 입력하시오:"))
+fact = 1
+for i in range(1, n+1):
+    fact = fact * i
+print(n,"!은",fact,"이다.")
