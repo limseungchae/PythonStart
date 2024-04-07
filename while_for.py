@@ -157,3 +157,9 @@ print("로그인 성공")
 # 중첩 반복문
 # 반복 루프 안에 다시 반복 루프
 
+# 사각형 패턴 출력하기
+for i in range(5):
+    for x in range(10):
+        print("*", end="")
+    print("")
+
