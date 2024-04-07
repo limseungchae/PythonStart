@@ -73,7 +73,8 @@ print(slist)
 # 연속 계산
 sum = 0
 n = 10
-for i in range(1, n+1) :
+# for i in range(1, n+1) :
+for i in range(n,0,-1) :
     # sum = sum + i
     sum += i
 print("합=",sum)
