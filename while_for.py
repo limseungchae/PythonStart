@@ -79,3 +79,7 @@ for i in range(n,0,-1) :
     sum += i
     print(f"{i},{sum}")
 print("합=",sum)
+
+# 구구단 계산
+for i in range(1,10) :
+    print("9 *",i,"=", 9*i)
