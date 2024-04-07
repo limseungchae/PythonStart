@@ -163,3 +163,9 @@ for i in range(5):
         print("*", end="")
     print("")
 
+# 무한 루프와 break, continue
+# while True:
+#   if 조건:
+#       break   # 반복을 중단한다.
+#   if 조건:
+#       continue # 다음 반복을 시작한다.
