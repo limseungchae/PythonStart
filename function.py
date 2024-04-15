@@ -24,3 +24,18 @@ def get_area(width, height):
 
 result = get_area(5, 3)
 print("사각형의 넓이:", result)
+
+# 함수는 여러번 호출 가능
+# 일단 작성되면 몇 번이라도 호출이 가능
+# 첫 번째 호출
+result1 = get_area(5, 3)
+print("사각형 1의 넓이:", result1)
+
+# 두 번째 호출
+result2 = get_area(10, 4)
+print("사각형 2의 넓이:", result2)
+
+# 세 번째 호출
+result3 = get_area(7, 7)
+print("사각형 3의 넓이:", result3)
+
