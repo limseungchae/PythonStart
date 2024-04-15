@@ -14,3 +14,13 @@ def greet():
 
 greet()  # 함수 호출
 
+# 함수 호출(function call)
+# 함수의 이름을 써주는 것(get_area())
+# 함수가 호출되면 함수 안에 있는 문장들이 실행되며 실행이 끝나면
+# 호출한 위치로 되돌아 감
+def get_area(width, height):
+    area = width * height
+    return area
+
+result = get_area(5, 3)
+print("사각형의 넓이:", result)
