@@ -224,3 +224,10 @@ del numbers[-1] # 마지막 항목 삭제
 print(numbers)
 # [0,1,2,3,4,5,6,7,8,9]
 # [0,1,2,3,4,5,6,7,8]
+
+# 문자열과 리스트
+# 문자열은 문자들이 모인 리스트
+s = "Monty Python"
+print(s[0]) # M
+print(s[6:10]) # Python
+print(s[-12:-7]) # Monty
