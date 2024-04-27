@@ -19,3 +19,10 @@ print(temps[3]) # 35
 temps = [28, 31, 33, 35, 27, 26, 25]
 temps[3] = 36
 print(temps[3]) # 36
+
+# 인덱스 오류
+# 인덱스를 사용할 때는 인덱스가 적정한 범위에 잇는지를 항상 신경 써야 함
+temps = [28, 31, 33, 35, 27, 26, 25]
+temps[7] = 36
+# IndexError: list assignment index out of range
+
