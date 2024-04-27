@@ -151,3 +151,10 @@ sum(scores) # 합 33.4
 
 print("제거후:", scores)
 #------------------------------------------
+# 리스트 합병과 복제
+fruits1 = ["apple", "chjerry"]
+fruits1 = ["banana", " blueberry"]
+fruis = fruis1 + fruits2
+# ["apple", "chjerry", "banana", " blueberry"]
+numbers = [1,2,3] * 3 # [1,2,3,1,2,3,1,2,3]
+numbers = [0] * 12 #[0,0,0,0,0,0,0,0,0,0,0,0]
