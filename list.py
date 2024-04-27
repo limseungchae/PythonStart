@@ -119,3 +119,21 @@ print(heroes) # ['아이언맨', '헐크']
 # 리스트를 복제할 때는 슬라이싱을 사용하거나 copy() 메서드를 사용합니다.
 # 예: new_list = my_list[:] or new_list = my_list.copy()
 
+# 성적리스트 처리하기
+STUDENTS = 5
+lst = []
+count = 0
+
+for i in range(STUDENTS):
+    value = int(input("성적을 입력하시오: "))
+    lst.append(value)
+
+print("\n성적 평균 =", sum(lst) / len(lst))
+print("최대점수 =", max(lst))
+print("최소점수 =", min(lst))
+
+for score in lst:
+    if score >= 80:
+        count += 1
+
+print("80점 이상 =", count)
