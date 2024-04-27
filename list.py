@@ -231,3 +231,12 @@ s = "Monty Python"
 print(s[0]) # M
 print(s[6:10]) # Python
 print(s[-12:-7]) # Monty
+
+# 리스트 함축
+# [수식 for(변수 in 리스트) if(조건)]
+# squares = [x*x for x in rang(10)]
+# squares = []
+# for x in range(10):
+#   squares.append(x*x)
+# [0,1,4,9,16,25,33,49,64,81]
+# 리스트 함축에는 if를 사용하여 조건이 추가 가능
