@@ -81,4 +81,8 @@ print(fruis) # ['apple', 'grape']
 # 만약 삭제하고자 하는 항목이 없다면 오류(예외)가 발생
 heroes = ["아이언맨","토르","헐크"]
 heroes.remove("토르")
+
+# 확인후 삭제
+if "토르" in heroes:
+    heroes.remove("토르")
 print(heroes) # ['아이언맨', '헐크']
