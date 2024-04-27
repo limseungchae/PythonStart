@@ -38,4 +38,10 @@ a = [3, 2, 1, 5, 4]
 a.sort(reverse=True)
 print(a)     # [5,4,3,2,1]
 
+# 리스트 정렬(2)
+# sorted()
+numbers = [10,3,7,1,9,4,2,8,5,6]
+ascending_numbers = sorted(numbers)
+print(ascending_numbers) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 
