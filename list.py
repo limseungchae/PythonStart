@@ -137,3 +137,17 @@ for score in lst:
         count += 1
 
 print("80점 이상 =", count)
+
+scores = [10.1, 9.0, 8.3, 7.1, 3.0, 9.0]
+
+#------------------------------------------
+print("제거전:", scores)
+
+scores.remove(max(scores)) # 최대값 제거
+scores.remove(min(scores)) # 최소값 제거
+len(scores) # 수 4
+sum(scores)/len(scores) # 평균 8.35
+sum(scores) # 합 33.4
+
+print("제거후:", scores)
+#------------------------------------------
