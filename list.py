@@ -44,4 +44,11 @@ numbers = [10,3,7,1,9,4,2,8,5,6]
 ascending_numbers = sorted(numbers)
 print(ascending_numbers) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+# 요소 추가하기
+# 새로운 요소를 리스트의 맨 끝에 추가
+# append()
+fruis = []              # 공백 리스트를 생성한다.
+fruis.append("apple")   # 리스트에 "apple"을 추가한다.
+fruis.append("banana")  # 리스트에 "banana"를 추가한다.
+print(fruis)    # ['apple', 'banana']
 
