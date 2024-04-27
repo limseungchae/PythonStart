@@ -115,3 +115,7 @@ print(heroes) # ['아이언맨', '헐크']
 # 리스트 슬라이싱:
 # 슬라이싱을 사용하여 리스트의 일부분을 추출할 수 있습니다.
 # 예: sub_list = my_list[1:4]
+# 리스트 복제:
+# 리스트를 복제할 때는 슬라이싱을 사용하거나 copy() 메서드를 사용합니다.
+# 예: new_list = my_list[:] or new_list = my_list.copy()
+
