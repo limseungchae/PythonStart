@@ -158,3 +158,12 @@ fruis = fruis1 + fruits2
 # ["apple", "chjerry", "banana", " blueberry"]
 numbers = [1,2,3] * 3 # [1,2,3,1,2,3,1,2,3]
 numbers = [0] * 12 #[0,0,0,0,0,0,0,0,0,0,0,0]
+
+# 리스트 비교
+list1 = [1,2,3]
+list2 = [1,2,3]
+print(list1 == list2)   # True
+
+list1 = [3,4,5]
+list2 = [1,2,3]
+print(list1 > list2)   # True
