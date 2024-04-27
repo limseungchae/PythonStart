@@ -52,3 +52,8 @@ fruis.append("apple")   # 리스트에 "apple"을 추가한다.
 fruis.append("banana")  # 리스트에 "banana"를 추가한다.
 print(fruis)    # ['apple', 'banana']
 
+# 지정된 위치에 요소를 추가
+# insert()
+fruis = ['apple', 'banana', "grape"]
+fruis.insert(1,"cherry")
+print(fruis) # ['apple', 'cherry', 'banana', 'grape']
