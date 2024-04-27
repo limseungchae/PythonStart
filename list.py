@@ -23,6 +23,14 @@ print(temps[3]) # 36
 # 인덱스 오류
 # 인덱스를 사용할 때는 인덱스가 적정한 범위에 잇는지를 항상 신경 써야 함
 temps = [28, 31, 33, 35, 27, 26, 25]
-temps[7] = 36
+# temps[7] = 36
 # IndexError: list assignment index out of range
+
+# 리스트 정렬(1)
+# 순서대로 정렬할때
+# sort()
+a = [3, 2, 1, 5, 4]
+a.sort()
+print(a)     # [1,2,3,4,5]
+
 
