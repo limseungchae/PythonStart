@@ -76,3 +76,9 @@ print(fruis) # ['banana', 'grape']
 fruis = ['apple', 'banana', "grape"]
 fruis.remove("banana") # "banana" 이 삭제된다.
 print(fruis) # ['apple', 'grape']
+
+# remove(
+# 만약 삭제하고자 하는 항목이 없다면 오류(예외)가 발생
+heroes = ["아이언맨","토르","헐크"]
+heroes.remove("토르")
+print(heroes) # ['아이언맨', '헐크']
