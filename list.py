@@ -176,3 +176,11 @@ value[3] = 39   # values 리스트 변경
 print(temps)    # temps 리스트가 변경되었다.
 # [28,31,33,35,27,26,25]
 # [28,31,33,39,27,26,25]
+
+# 리스트 깊은 복사하기
+temps = [28,31,33,35,27,26,25]
+value = list(temps)
+print(temps)    # temps 리스트 출력
+value[3] = 39   # valuies 리스트 변경
+print(temps)    # temps 리스트가 변경 안됨
+# [28,31,33,35,27,26,25]
