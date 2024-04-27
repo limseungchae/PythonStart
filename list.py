@@ -70,3 +70,9 @@ if "banana" in fruis:
 fruis = ['apple', 'banana', "grape"]
 item= fruis.pop(0) # "apple" 이 삭제된다.
 print(fruis) # ['banana', 'grape']
+
+# 항목의 값만 알고 있다면
+# remobve(value)
+fruis = ['apple', 'banana', "grape"]
+fruis.remove("banana") # "banana" 이 삭제된다.
+print(fruis) # ['apple', 'grape']
