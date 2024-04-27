@@ -167,3 +167,12 @@ print(list1 == list2)   # True
 list1 = [3,4,5]
 list2 = [1,2,3]
 print(list1 > list2)   # True
+
+# 리스트 얕은 복사하기
+temps = [28,31,33,35,27,26,25]
+value = temps
+print(temps)    # temps 리스트 출력
+value[3] = 39   # values 리스트 변경
+print(temps)    # temps 리스트가 변경되었다.
+# [28,31,33,35,27,26,25]
+# [28,31,33,39,27,26,25]
