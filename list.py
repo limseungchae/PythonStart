@@ -57,3 +57,9 @@ print(fruis)    # ['apple', 'banana']
 fruis = ['apple', 'banana', "grape"]
 fruis.insert(1,"cherry")
 print(fruis) # ['apple', 'cherry', 'banana', 'grape']
+
+# 리스트 탐색하기
+fruis = ['apple', 'banana', "grape"]
+n = fruis.index("banana")  # n은 1이 된다.
+if "banana" in fruis:
+    print(fruis.index("banana"))    # 1
