@@ -63,3 +63,10 @@ fruis = ['apple', 'banana', "grape"]
 n = fruis.index("banana")  # n은 1이 된다.
 if "banana" in fruis:
     print(fruis.index("banana"))    # 1
+
+# 요소 삭제하기
+# 항목이 저장된 위치를 알고 있다면
+# pop(i)을 사용
+fruis = ['apple', 'banana', "grape"]
+item= fruis.pop(0) # "apple" 이 삭제된다.
+print(fruis) # ['banana', 'grape']
