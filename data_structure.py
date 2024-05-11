@@ -130,3 +130,9 @@ set1 = {1, 2, 3}
 set2 = {1, 2, 3, 4, 5}
 subset_check = set1.issubset(set2)  # 또는 subset_check = set1 <= set2
 print(subset_check)  # 출력: True (set1은 set2의 부분집합입니다.)
+
+# 진부분 집합 확인
+set1 = {1, 2, 3}
+set2 = {1, 2, 3, 4, 5}
+proper_subset_check = set1 < set2
+print(proper_subset_check)  # 출력: True (set1은 set2의 진부분집합입니다.)
