@@ -149,3 +149,9 @@ set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 intersection_set = set1 & set2  # 또는 intersection_set = set1.intersection(set2)
 print(intersection_set)  # 출력: {3}
+
+# 차집합
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+difference_set = set1 - set2  # 또는 difference_set = set1.difference(set2)
+print(difference_set)  # 출력: {1, 2}
