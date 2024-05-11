@@ -181,3 +181,10 @@ common_integers = set1 & set2
 #--------------------------------------------------
 # 딕셔너리(dictionary)
 # 값(value)과 관련된 키(key)도 저장
+
+# 딕셔너리 생성하기
+# 문법
+# 딕셔너리 이름 = {키1:값1, 키2:값2, ...}
+# capitals={"Korea":"Seoul","USA","washington"}
+# 공백 딕셔너리 생성
+# capitals= {}
