@@ -67,3 +67,13 @@ print("b:", b)  # 출력: b: 2
 a, b = b, a
 print("a:", a)  # 출력: a: 2
 print("b:", b)  # 출력: b: 1
+
+# enumerate() 사용하기
+# 함수는 순회 가능한(iterable) 객체(예: 리스트, 튜플, 문자열 등)를
+# 입력으로 받아 인덱스와 해당 요소를 포함하는 enumerate 객체를 반환합니다.
+fruits = ['apple', 'banana', 'orange']
+for index, value in enumerate(fruits):
+    print(index,value)
+# Index: 0, Value: apple
+# Index: 1, Value: banana
+# Index: 2, Value: orange
