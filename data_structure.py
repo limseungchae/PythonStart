@@ -161,3 +161,19 @@ set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 symmetric_difference_set = set1 ^ set2  # 또는 symmetric_difference_set = set1.symmetric_difference(set2)
 print(symmetric_difference_set)  # 출력: {1, 2, 4, 5}
+
+
+# 리스트 <-> 세트
+# 리스트를 세트로 변환하기
+my_list = [1, 2, 3, 3, 4, 4, 5]
+my_set = set(my_list)
+
+# 서로다른 정수는 몇개
+unique_integers_count = len(my_set)
+
+# 공통적인 정수
+list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+set1 = set(list1)
+set2 = set(list2)
+common_integers = set1 & set2
