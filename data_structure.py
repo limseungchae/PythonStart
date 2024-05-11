@@ -177,3 +177,7 @@ list2 = [4, 5, 6, 7, 8]
 set1 = set(list1)
 set2 = set(list2)
 common_integers = set1 & set2
+
+#--------------------------------------------------
+# 딕셔너리(dictionary)
+# 값(value)과 관련된 키(key)도 저장
