@@ -136,3 +136,10 @@ set1 = {1, 2, 3}
 set2 = {1, 2, 3, 4, 5}
 proper_subset_check = set1 < set2
 print(proper_subset_check)  # 출력: True (set1은 set2의 진부분집합입니다.)
+
+
+# 합집합
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2  # 또는 union_set = set1.union(set2)
+print(union_set)  # 출력: {1, 2, 3, 4, 5}
