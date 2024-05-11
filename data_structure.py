@@ -56,3 +56,14 @@ print(fruits)  # 출력: [1, 2, 3, (4, 5, 6)]
 numbers = [1, 2, 3]
 numbers += (4, 5, 6)
 print(numbers)  # 출력: [1, 2, 3, 4, 5, 6]
+
+# 튜플 패킹과 언패킹
+a = 1
+b = 2
+print("a:", a)  # 출력: a: 1
+print("b:", b)  # 출력: b: 2
+
+# 변수 값 교환을 위해 튜플 패킹과 언패킹을 함께 사용합니다.
+a, b = b, a
+print("a:", a)  # 출력: a: 2
+print("b:", b)  # 출력: b: 1
