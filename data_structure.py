@@ -35,3 +35,13 @@
 # 쉼표가 없으면 튜플이 아니라 수식이 된다.
 # 튜플의 특성상 만들고 나서 변경이 안된다.
 
+# 튜플 <-> 리스트
+# 튜플생성
+my_list = [1, 2, 3, 4, 5]
+my_tuple = tuple(my_list)
+print(my_tuple)  # 출력: (1, 2, 3, 4, 5)
+
+# 리스트 생성
+my_tuple = (1, 2, 3, 4, 5)
+my_list = list(my_tuple)
+print(my_list)  # 출력: [1, 2, 3, 4, 5]
