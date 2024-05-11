@@ -107,3 +107,9 @@ numbers = set([1,2,3,1,2,3])
 print(numbers) # {1, 2, 3}
 letters = set("abc")
 print(letters) # {'c', 'a', 'b'}
+
+# 세트 연산자
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1 | set2  # 또는 union_set = set1.union(set2)
+print(union_set)  # 출력: {1, 2, 3, 4, 5}
