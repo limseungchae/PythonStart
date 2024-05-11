@@ -101,3 +101,9 @@ for index, value in enumerate(fruits):
 # numbers = {1,2,3}
 # 공백세트 생성
 # values = set()
+
+# 리스트 <-> 세트
+numbers = set([1,2,3,1,2,3])
+print(numbers) # {1, 2, 3}
+letters = set("abc")
+print(letters) # {'c', 'a', 'b'}
