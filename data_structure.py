@@ -45,3 +45,14 @@ print(my_tuple)  # 출력: (1, 2, 3, 4, 5)
 my_tuple = (1, 2, 3, 4, 5)
 my_list = list(my_tuple)
 print(my_list)  # 출력: [1, 2, 3, 4, 5]
+
+# 튜플 추가 연산들
+# 다른 튜플에 결합
+fruits = [1, 2, 3]
+fruits += (4, 5, 6)
+print(fruits)  # 출력: [1, 2, 3, (4, 5, 6)]
+
+# 리스트에 튜플을 결합
+numbers = [1, 2, 3]
+numbers += (4, 5, 6)
+print(numbers)  # 출력: [1, 2, 3, 4, 5, 6]
