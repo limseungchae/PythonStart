@@ -25,3 +25,7 @@
 # 공백 튜플 fruiots=()
 # 초기값을 가지는 튜플 fruits=("apple","banana","grape")
 # 인덱스를 사용하여 요소에 접근 result=fruits[1]
+
+# 튜플 생성
+# fruits=("apple","banana","grape")
+# fruits="apple","banana","grape"
