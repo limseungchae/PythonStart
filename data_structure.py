@@ -188,3 +188,10 @@ common_integers = set1 & set2
 # capitals={"Korea":"Seoul","USA","washington"}
 # 공백 딕셔너리 생성
 # capitals= {}
+
+# 항목 포함 여부
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+if 'b' in my_dict:
+    print("'b' 키는 딕셔너리에 포함되어 있습니다.")
+else:
+    print("'b' 키는 딕셔너리에 포함되어 있지 않습니다.")
