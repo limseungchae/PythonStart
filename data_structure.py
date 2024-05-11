@@ -113,3 +113,14 @@ set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 union_set = set1 | set2  # 또는 union_set = set1.union(set2)
 print(union_set)  # 출력: {1, 2, 3, 4, 5}
+
+# 세트 함축 연산
+# 1부터 10까지의 숫자 중에서 짝수로 이루어진 세트 생성
+even_numbers_set = {x for x in range(1, 11) if x % 2 == 0}
+# 새로운 세트      x: 출력식으로 새로운 요소 X: 입력 리스트에 있는 요소 rage: 입력 리스트 x%2: 조건
+print(even_numbers_set)  # 출력: {2, 4, 6, 8, 10}
+
+# 문자열 리스트에서 각 문자열의 길이로 이루어진 세트 생성
+string_list = ["apple", "banana", "orange", "grape"]
+string_length_set = {len(s) for s in string_list}
+print(string_length_set)  # 출력: {5, 6}
