@@ -77,3 +77,9 @@ for index, value in enumerate(fruits):
 # Index: 0, Value: apple
 # Index: 1, Value: banana
 # Index: 2, Value: orange
+
+# 리스트의 특성
+# 문법: 대괄호([]) 사용
+# 변경 여부: 변경 가능(mutable),
+# 메소드: 요소 추가/삭제/수정 가능
+# 용도: 동적 데이터에 사용
