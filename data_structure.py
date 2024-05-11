@@ -124,3 +124,9 @@ print(even_numbers_set)  # 출력: {2, 4, 6, 8, 10}
 string_list = ["apple", "banana", "orange", "grape"]
 string_length_set = {len(s) for s in string_list}
 print(string_length_set)  # 출력: {5, 6}
+
+# 부분 집합 연산
+set1 = {1, 2, 3}
+set2 = {1, 2, 3, 4, 5}
+subset_check = set1.issubset(set2)  # 또는 subset_check = set1 <= set2
+print(subset_check)  # 출력: True (set1은 set2의 부분집합입니다.)
