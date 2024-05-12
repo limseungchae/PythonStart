@@ -44,3 +44,14 @@ print(t)
 
 s =s[:2]    # Mo
 print(s)
+
+# in과 not in 연산자
+print('Hello' in 'Hello World')     # True
+print('WORLD' in 'Hello World')     # False
+print('WORLD' not in 'Hello World') # True
+
+# 문자열 안에 문자열 넣기
+# + 연산자를 사용하여 작업
+name = "Alice"
+greeting = "Hello, " + name + "!"
+print(greeting)     # Hello, Alice!
