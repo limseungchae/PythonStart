@@ -24,3 +24,9 @@
 print(r'This is Kim\'s dog.')
 # This is Kim\'s dog.
 # 원시 문자열은 r'C:\User\Kim\Document'와 같은 윈도우 파일 경로를 나타내는 문자열에 필요
+
+# 인덱싱
+# 문자열 시퀀스(sequence)라는 자료 구조에 속함
+s = 'Monty Python'
+print(s[0])     # M
+print(s[-1])    # n
