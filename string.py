@@ -65,3 +65,7 @@ print(greeting)     # Hello, Bob!
 name = "David"
 greeting = f"Hello, {name}!"
 print(greeting)     # Hello, David!
+
+# 문자열 비교하기
+# 어떤 문자열이 사전에서 앞에 있으면 < 연산자를 적용했을 떄, 참
+print('apple' < 'banana')   # True
