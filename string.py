@@ -55,3 +55,8 @@ print('WORLD' not in 'Hello World') # True
 name = "Alice"
 greeting = "Hello, " + name + "!"
 print(greeting)     # Hello, Alice!
+
+# %s 기호를 두고 이 기호를 %뒤의 값으로 바꾸는 방법
+name = "Bob"
+greeting = "Hello, %s!" % name
+print(greeting)     # Hello, Bob!
