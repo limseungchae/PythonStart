@@ -111,3 +111,11 @@ print(s.isdigit())  # 출력: True
 s = "abc"
 print(s.isdigit())  # 출력: False
 
+# spli()로 문자열 분해하기
+s = "apple banana cherry"
+words = s.split()
+print(words)  # 출력: ['apple', 'banana', 'cherry']
+
+s = "apple,banana,cherry"
+words = s.split(",")
+print(words)  # 출력: ['apple', 'banana', 'cherry']
