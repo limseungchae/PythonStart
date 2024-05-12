@@ -124,3 +124,8 @@ print(words)  # 출력: ['apple', 'banana', 'cherry']
 # list()는 주어진 객체를 리스트화하는 함수
 print(list('Hello, World!'))
 # ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
+
+# Join() 으로 문자열 합치기
+# 접착제 문자를 중간에 넣어 문자열을 결합
+print('-'.join(['apple','grape','banana']))
+# apple-grape-banana
