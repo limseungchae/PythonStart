@@ -82,3 +82,16 @@ else:   print('회문 아닙니다.')
 
 # 문자열 메소드 사용하기
 # 파이썬은 아주 강력한 문자열 메소드들을 제공
+
+# 대소문자 변환하기
+# upper()
+# 대문자로 변환
+s = "hello"
+d = s.upper()
+print(d)  # 출력: "HELLO"
+
+#lower()
+# 소문자로 변환
+s = "HELLO"
+d = s.lower()
+print(d)  # 출력: "hello"
