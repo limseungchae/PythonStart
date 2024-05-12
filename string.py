@@ -119,3 +119,8 @@ print(words)  # 출력: ['apple', 'banana', 'cherry']
 s = "apple,banana,cherry"
 words = s.split(",")
 print(words)  # 출력: ['apple', 'banana', 'cherry']
+
+# 문자열을 문자로 분해하려면
+# list()는 주어진 객체를 리스트화하는 함수
+print(list('Hello, World!'))
+# ['H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!']
