@@ -143,3 +143,12 @@ print(s.lstrip('#'))    # 'Hello, World! #####'
 s = '#####Hello, World! ###########'
 print(s.rstrip('#'))    # '#####Hello, World! '
 
+# ord()와 chr() 함수
+# ord() 함수
+# 문자의 코드값을 가져올때
+print(ord('a'))     # 97
+
+# chr()
+# 숫자값 n을 전달하면, n에 해당하는 문자를 반환
+print(chr(97))      # a
+
