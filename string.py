@@ -152,3 +152,11 @@ print(ord('a'))     # 97
 # 숫자값 n을 전달하면, n에 해당하는 문자를 반환
 print(chr(97))      # a
 
+# len() 함수, str() 함수
+# len(s)
+# 문자열읙 길이를 반환
+s = 'zzzzzzzzzz'
+print(len(s))       # 10
+# str(obj)
+# 객체의 문자열 표현을 반환
+print(str(1+2j))    # (1+2j)
