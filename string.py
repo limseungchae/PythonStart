@@ -30,3 +30,17 @@ print(r'This is Kim\'s dog.')
 s = 'Monty Python'
 print(s[0])     # M
 print(s[-1])    # n
+
+# 슬라이싱
+#문자열의 일부를 잘라서 서브 문자열 만드는 연산
+s = 'Monty Python'
+print(s[6:10])     # Pyth   # 여러 문자 선택
+
+t = s[:-1]  # Monty Pytho   # 마지막 문자 삭제
+print(t)
+
+t = s[-2:]  # on            # 종료 인덱스 생략
+print(t)
+
+s =s[:2]    # Mo
+print(s)
