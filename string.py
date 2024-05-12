@@ -17,3 +17,10 @@
 # s3 = "This isK im's dog."
 # 이스케이프 문자로 작은 따옴표 표시
 # s3 = 'This is Kim\'s dog.'
+
+# 원시 문자열
+# 문자열의 시작 따옴표 앞에 r
+# 백슬래시를 이스케이프 문자로 취급하지 않음
+print(r'This is Kim\'s dog.')
+# This is Kim\'s dog.
+# 원시 문자열은 r'C:\User\Kim\Document'와 같은 윈도우 파일 경로를 나타내는 문자열에 필요
