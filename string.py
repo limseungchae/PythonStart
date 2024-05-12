@@ -95,3 +95,19 @@ print(d)  # 출력: "HELLO"
 s = "HELLO"
 d = s.lower()
 print(d)  # 출력: "hello"
+
+# 문자열 검사 메소드 (종류가 많습니다)
+# 문자열이 모두 알파벳 문자로만 이루어져 있는지 확인합니다.
+s = "abc"
+print(s.isalpha())  # 출력: True
+
+s = "123"
+print(s.isalpha())  # 출력: False
+
+# 문자열이 모두 숫자로만 이루어져 있는지 확인합니다.
+s = "123"
+print(s.isdigit())  # 출력: True
+
+s = "abc"
+print(s.isdigit())  # 출력: False
+
