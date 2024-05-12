@@ -60,3 +60,8 @@ print(greeting)     # Hello, Alice!
 name = "Bob"
 greeting = "Hello, %s!" % name
 print(greeting)     # Hello, Bob!
+
+# f-문자열 사용
+name = "David"
+greeting = f"Hello, {name}!"
+print(greeting)     # Hello, David!
