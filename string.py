@@ -172,3 +172,16 @@ print(s.find('k'))  # 3 인덱스를 반환한다.
 # 역순으로 문자열 안에서 단어를 검색
 s = 'zzzkzzzzzz'
 print(s.rfind('z'))  # 9 문자열의 끝에서부터 탐색한다.
+
+# count() 함수
+# 문자열 중에서 단어가 등장하는 횟수를 반환
+s = 'banana'
+count = s.count('a')
+print(count)  # 출력: 3
+
+# replace() 함수
+# 문자열에서 하나의 단어를 다른 단어로 교체할 때 사용
+s = 'apple'
+new_s = s.replace('p', 'b')
+print(new_s)  # 출력: 'abble'
+
