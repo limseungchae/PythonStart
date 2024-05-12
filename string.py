@@ -129,3 +129,17 @@ print(list('Hello, World!'))
 # 접착제 문자를 중간에 넣어 문자열을 결합
 print('-'.join(['apple','grape','banana']))
 # apple-grape-banana
+
+# strip()으로 공백 문자 제거하기
+# 시작이나 끝에 공백 문자가 없는 새 문자열을 반환
+s = 'Hello, World! '
+print(s.strip())    # 'Hello, World!'
+
+# 앞에 삭제
+s = '########Hello, World! #####'
+print(s.lstrip('#'))    # 'Hello, World! #####'
+
+# 뒤에 삭제
+s = '#####Hello, World! ###########'
+print(s.rstrip('#'))    # '#####Hello, World! '
+
