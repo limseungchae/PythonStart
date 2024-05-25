@@ -80,4 +80,16 @@ submit_button.pack(pady=10)
 # 윈도우가 사용자 동작을 대기
 root.mainloop()
 
+# Label: 텍스트를 표시하는 레이블.
+# Button: 클릭 가능한 버튼.
+# Entry: 텍스트를 입력할 수 있는 입력 필드.
+# Checkbutton: 체크박스.
+# Radiobutton: 라디오 버튼.
+# Listbox: 여러 항목 중에서 선택할 수 있는 리스트박스.
 
+# Label: 텍스트를 표시합니다.
+# Button: 클릭 시 특정 동작을 수행합니다.
+# Entry: 사용자로부터 텍스트 입력을 받습니다.
+# Checkbutton: 체크할 수 있는 옵션을 제공합니다.
+# Radiobutton: 여러 옵션 중 하나를 선택할 수 있습니다.
+# Listbox: 여러 항목 중에서 하나 이상을 선택할 수 있습니다.
