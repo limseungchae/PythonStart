@@ -120,4 +120,10 @@ root.mainloop()
 
 # matplotlib - 그래프를 그리는 라이러리
 # 명령 프롬프트
-# pip install matplotlib 엔터키를 입력하면 자동철치
+# pip install matplotlib 엔터키를 입력하면 자동철치\
+
+# 선 그래프
+# pyplot 사용
+# plot() 함수
+# 선 그래프를 그리기
+# x값과 y값을 리스트 형태로 plot() 함수에 전달
