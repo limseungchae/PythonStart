@@ -110,3 +110,6 @@ root.mainloop()
 # 판다스 설치
 # 명령 프롬프트
 # pip install pandas 엔터를 입력하면 자동설치
+
+# 판다스로 데이터 읽기
+# 국가에 대한 정보가 저장된 파일 countris.csv
