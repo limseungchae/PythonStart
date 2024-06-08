@@ -117,3 +117,7 @@ root.mainloop()
 # 인덱스와 컬럼 객체
 # index 행들의 레이블
 # columns 열들의 레이블
+
+# matplotlib
+# 명령 프롬프트
+# pip install matplotlib 엔터키를 입력하면 자동철치
