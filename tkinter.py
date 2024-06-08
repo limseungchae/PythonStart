@@ -113,3 +113,7 @@ root.mainloop()
 
 # 판다스로 데이터 읽기
 # 국가에 대한 정보가 저장된 파일 countris.csv
+
+# 인덱스와 컬럼 객체
+# index 행들의 레이블
+# columns 열들의 레이블
