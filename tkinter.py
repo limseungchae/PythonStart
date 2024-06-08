@@ -118,6 +118,6 @@ root.mainloop()
 # index 행들의 레이블
 # columns 열들의 레이블
 
-# matplotlib
+# matplotlib - 그래프를 그리는 라이러리
 # 명령 프롬프트
 # pip install matplotlib 엔터키를 입력하면 자동철치
